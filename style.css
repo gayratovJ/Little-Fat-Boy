@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --ro: 'Roboto', sans-serif;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+header nav ul li {
+    margin-right: 270px;
+}
+
+header nav ul li a {
+    font-family: var(--ro);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    color: black;
+}
+
+header .take {
+    display: flex;
+    margin-top: 33px;
+    justify-content: center;
+}
+
+header .take .box .w p {
+    font-family: var(--ro);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: black;
+    margin-right: 30px;
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+header .take .box .w {
+    display: flex;
+}
+
+header .take .box h1 {
+    font-family: var(--ro);
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 65px;
+    color: black;
+    width: 462px;
+}
+
+header .take .box {
+    margin-right: 116px;
+    margin-top: 70px;
+}
+
+header .take .box p.sit {
+    margin-top: 35px;
+    font-family: var(--ro);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: black;
+    margin-left: 35px;
+}
+
+header .help {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+header .help .box p {
+    font-family: var(--ro);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: black;
+    margin-bottom: 26px;
+}
+
+header .help .box {
+    margin-left: 172px;
+}
+
+header .help .box h1 {
+    font-family: var(--ro);
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 65px;
+    color: black;
+    width: 383px;
+}
+
+header .help .box p.sit {
+    font-family: var(--ro);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: black;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+header img.mk {
+    display: block;
+    margin: auto;
+    margin-top: 270px;
+}
+
+header .xob .m {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+header .xob {
+    margin-top: 40px;
+    margin-left: 275px;
+}
+
+header .xob .m p {
+    font-family: var(--ro);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: black;
+    margin-left: 35px;
+}
+
+header .xob h1 {
+    width: 389px;
+    font-family: var(--ro);
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 65px;
+    color: black;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 120px;
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+    justify-content: center;
+}
+
+footer ul li{
+    margin-right: 40px;
+}
+
+footer ul li a{
+    color: black;
+    font-family: var(--ro);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+section .box{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+section .box i.fa{
+    display: flex;
+    margin-bottom: 38px;
+    font-size: 30px;
+}
+
+section h1{
+    font-family: var(--ro);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    color: black;
+    width: 517px;
+    margin-left: 70px;
+}
+
+section .boxs{
+    display: flex;
+    margin-left: 245px;
+    margin-top: -200px;
+}
+
+section .boxs ul{
+    margin-left: 85px;
+}
+
+section .boxs ul li a{
+    font-family: var(--ro);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 48px;
+    color: black;
+}
+
+.form{
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid black;
+}
+
+.form p{
+    font-family: var(--ro);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: black;
+    text-align: center;
+    margin-top: 27px;
+}
+
+@media (max-width:800px) {
+    header nav ul{
+        display: flex;
+        justify-content: start;
+    }
+    header nav ul li{
+        margin-left: -70px;
+        display: flex;
+    }
+    header ul li a{
+        font-size: 5px;
+        display: flex;
+    }
+    header .take img{
+        width: 300px;
+        height: 300px;
+        margin-right: -150px;
+    }
+    header .help img{
+        width: 300px;
+        height: 300px;
+        margin-left: 200px;
+        margin-top: 70px;
+    }
+    header img{
+        width: 800px;
+        height: 500px;
+    }
+    footer {
+        margin-left: 60px;
+    }
+    section .boxs h1{
+        font-size: 20px;
+    }
+    .form{
+        display: flex;
+    }
+}
+@media (max-width:1060px){
+    header ul{
+        margin-left: 200px;
+    }
+    header .take img{
+        width: 300px;
+        height: 300px;
+        margin-left:-60px;
+    }
+    header .take .box h1{
+        font-size: 38px;
+    }
+    header .help img{
+        width: 300px;
+        height: 300px;
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+    header .help .box h1{
+        font-size: 38px;
+        margin-left: -50px;
+    }
+}
+@media(max-width:670px){
+    header .take img{
+        margin-left: -200px;
+    }
+    header .help img{
+        margin-left: 160px;
+        margin-right: -100px;
+    }
+    footer ul li{
+        margin-right: 15px;
+    }
+    section .boxs img{
+        width: 150px;
+        height: 300px;
+    }
+    section .boxs h1{
+        font-size: 12px;
+        width: 400px;
+        height: 400px;
+        display: flex;
+    }
+    .form{
+        max-width: 670px;
+        text-align: center;
+        display: flex;
+        margin-left: 70px;
+    }
+    .form p{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        display: block;
+        margin-left: 260px;
+    }
+}
+@media (max-width:570px){
+    header .take img{
+        margin-left: -50px;
+    }
+    header .take .box h1{
+        width: 200px;
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    header .take .box{
+        margin: auto;
+    }
+    header .help img{
+        margin-left: 260px;
+    }
+    header .help .box h1{
+        font-size: 20px;
+        width: 200px;
+        margin-left: 30px;
+    }
+    footer{
+        margin-left: 125px;
+    }
+    section .boxs img{
+        margin-left: 100px;
+    }
+    section .boxs h1{
+        font-size: 0px;
+    }
+    .form{
+        margin-left: 130px;
+    }
+}
+@media (max-width:440px){
+    header .take img{
+        margin-right: -260px;
+    }
+    header .help{
+        margin-left: 140px;
+    }
+    footer {
+        margin-left: 200px;
+        width: 440px;
+        border: 1px solid black;
+    }
+    .form{
+        margin-left: 210px;
+    }
+    .form p{
+        margin-left: 160px;
+    }
+}
+@media (max-width:320px){
+    header .take {
+        margin-left: 220px;
+    }
+    header .help{
+        margin-left: 300px;
+    }
+}
